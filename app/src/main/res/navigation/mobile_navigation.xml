@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/nav_sensors">
+
+
+
+    <fragment
+        android:id="@+id/nav_map"
+        android:name="com.example.drawer.ui.map.MapFragment"
+        android:label="Map"
+        tools:layout="@layout/fragment_map" />
+    <fragment
+        android:id="@+id/nav_sensors"
+        android:name="com.example.drawer.ui.sensors.SensorsFragment"
+        android:label="Sensors"
+        tools:layout="@layout/fragment_sensors" />
+    <fragment
+        android:id="@+id/nav_accelerometer"
+        android:name="com.example.drawer.ui.sensors.AccelerometerFragment"
+        android:label="Accelerometer"
+        tools:layout="@layout/fragment_accelerometer" />
+
+    <fragment
+        android:id="@+id/nav_thermometer"
+        android:name="com.example.drawer.ui.sensors.ThermometerFragment"
+        android:label="Thermometer"
+        tools:layout="@layout/fragment_thermometer" />
+    <fragment
+        android:id="@+id/nav_compass"
+        android:name="com.example.drawer.ui.sensors.CompassFragment"
+        android:label="Compass"
+        tools:layout="@layout/fragment_compass" />
+    <fragment
+        android:id="@+id/nav_step_counter"
+        android:name="com.example.drawer.ui.sensors.StepCounterFragment"
+        android:label="Step Counter"
+        tools:layout="@layout/fragment_step_counter" />
+    <fragment
+        android:id="@+id/nav_gyroscope"
+        android:name="com.example.drawer.ui.sensors.GyroscopeFragment"
+        android:label="Gyroscope"
+        tools:layout="@layout/fragment_gyroscope" />
+    <fragment
+        android:id="@+id/nav_proximity"
+        android:name="com.example.drawer.ui.sensors.ProximityFragment"
+        android:label="Proximity"
+        tools:layout="@layout/fragment_proximity" />
+</navigation>

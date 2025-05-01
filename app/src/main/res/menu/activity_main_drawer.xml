@@ -1,0 +1,36 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_map"
+        android:icon="@drawable/ic_map"
+        android:title="Map" />
+    <item
+        android:id="@+id/nav_sensors"
+        android:icon="@drawable/ic_sensors"
+        android:title="Sensors" />
+    <item
+        android:id="@+id/nav_proximity"
+        android:icon="@drawable/ic_proximity"
+        android:title="Proximity Sensor" />
+    <item
+        android:id="@+id/nav_accelerometer"
+        android:icon="@drawable/ic_accelerometer"
+        android:title="Accelerometer" />
+    <item
+        android:id="@+id/nav_thermometer"
+        android:icon="@drawable/ic_thermometer"
+        android:title="Thermometer" />
+    <item
+        android:id="@+id/nav_compass"
+        android:icon="@drawable/ic_compass" 
+        android:title="Compass" />
+    <item
+        android:id="@+id/nav_gyroscope"
+        android:icon="@drawable/ic_gyroscope" 
+        android:title="Gyroscope" />
+        <item
+    android:id="@+id/nav_step_counter"
+    android:icon="@drawable/ic_steps" 
+    android:title="Step Counter" />
+
+</menu>
